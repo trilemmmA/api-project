@@ -57,6 +57,9 @@ class App:
             elif choice == "4":
                 break
             
+            else:
+                print("Wrong command")
+            
     def run(self):
         self.handle_choice()
             
